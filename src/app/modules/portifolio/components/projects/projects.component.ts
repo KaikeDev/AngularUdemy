@@ -26,6 +26,22 @@ export class ProjectsComponent {
 
 
   public arrayProjects = signal<IProjects[]>([
+    
+
+    {
+      src: 'assets/img/projects/task-list.png',
+      alt: 'Primeiro Projeto em angular',
+      title: 'Angular Begginer',
+      width: '100px',
+      height: '51px',
+      description: 'Explore o blog ',
+      links: [
+        {
+          name: 'Conheça o meu projeto desenvolvido em Angular, onde explora uma kini API para controle de tarefas uma pessoa',
+          href: 'https://kaikedev.github.io/Projeto-Lista-de-Tarefas/'
+        }
+      ]
+    },
     {
       src: 'assets/img/projects/vfull.png',
       alt: 'Primeiro Projeto em angular',
@@ -35,83 +51,13 @@ export class ProjectsComponent {
       description: 'Explore o blog ',
       links: [
         {
-          name: 'Conheça o blog',
-          href: 'https://vidafullstack.com.br'
+          name: 'Conheça alguns projetos de FrondEnd desenvolvidos com HTML5 e CSS3',
+          href: 'https://github.com/KaikeDev/FRONTENDPROJETOS'
         }
       ]
     },
 
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Primeiro Projeto em angular',
-      title: 'Angular Begginer',
-      width: '100px',
-      height: '51px',
-      description: 'Explore o blog ',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://vidafullstack.com.br'
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Primeiro Projeto em angular',
-      title: 'Angular Begginer',
-      width: '100px',
-      height: '51px',
-      description: 'Explore o blog ',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://vidafullstack.com.br'
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Primeiro Projeto em angular',
-      title: 'Angular Begginer',
-      width: '100px',
-      height: '51px',
-      description: 'Explore o blog ',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://vidafullstack.com.br'
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Primeiro Projeto em angular',
-      title: 'Angular Begginer',
-      width: '100px',
-      height: '51px',
-      description: 'Explore o blog ',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://vidafullstack.com.br'
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Primeiro Projeto em angular',
-      title: 'Angular Begginer',
-      width: '100px',
-      height: '51px',
-      description: 'Explore o blog ',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://vidafullstack.com.br'
-        }
-      ]
-    },
-    
+
   ])
 
   public openDialog(data:IProjects){
