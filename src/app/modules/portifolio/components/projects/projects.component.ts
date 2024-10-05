@@ -26,7 +26,7 @@ export class ProjectsComponent {
 
 
   public arrayProjects = signal<IProjects[]>([
-    
+
 
     {
       src: 'assets/img/projects/task-list.png',
@@ -43,7 +43,7 @@ export class ProjectsComponent {
       ]
     },
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/html.png',
       alt: 'Primeiro Projeto em angular',
       title: 'Angular Begginer',
       width: '100px',
@@ -53,6 +53,35 @@ export class ProjectsComponent {
         {
           name: 'Conheça alguns projetos de FrondEnd desenvolvidos com HTML5 e CSS3',
           href: 'https://github.com/KaikeDev/FRONTENDPROJETOS'
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/jwt.png',
+      alt: 'Primeiro com JWT em Angular',
+      title: 'Angular Begginer',
+      width: '100px',
+      height: '51px',
+      description: 'Explore o site ',
+      links: [
+        {
+          name: 'Conheça um projeto desenvolvido utilizando uma API de autenticação JWT! Este projeto implementa autenticação segura com JSON Web Tokens (JWT), garantindo que apenas usuários autorizados possam acessar determinadas funcionalidades.',
+          href: 'https://kaikedev.github.io/auth-front/'
+        }
+      ]
+    },
+
+    {
+      src: 'assets/img/projects/pokeapi.png',
+      alt: 'Primeiro com JWT em Angular',
+      title: 'Angular Begginer',
+      width: '100px',
+      height: '51px',
+      description: 'Explore o site ',
+      links: [
+        {
+          name: 'Conheça um projeto Pokédex desenvolvido utilizando uma API de Pokémon! Esse projeto traz uma experiência interativa, permitindo explorar diferentes Pokémon com informações detalhadas, como características, habilidades e imagens',
+          href: 'https://kaikedev.github.io/Pokedex/'
         }
       ]
     },
